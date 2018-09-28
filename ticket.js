@@ -3,7 +3,7 @@ var spinalCore = require("spinal-core-connectorjs");
 // import model from "spinal-models-bim_forge";
 
 var SpinalTicket = class SpinalTicket extends Model {
-  constructor(name = "group Alert", color = "blue") {
+  constructor(name = "group Alert") {
     super();
 
     this.add_attr({
@@ -15,7 +15,8 @@ var SpinalTicket = class SpinalTicket extends Model {
       date: Date.now(),
       image: [],
       url: [],
-      state: ""
+      state: "",
+      category: {}
     });
   }
 };
