@@ -1,8 +1,8 @@
 {
   "name": "spinal-models-ticket",
   "version": "1.0.0",
-  "description": "",
-  "main": "ticket.js",
+  "description": "spinal ticket model",
+  "main": "dist/SpinalTicket.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +12,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "spinalcom",
   "bugs": {
     "url": "https://github.com/spinalcom/spinal-models-ticket/issues"
   },
-  "homepage": "https://github.com/spinalcom/spinal-models-ticket#readme"
+  "homepage": "https://github.com/spinalcom/spinal-models-ticket#readme",
+  "dependencies": {
+    "@types/node": "^10.12.12",
+    "spinal-core-connectorjs": "git+https://github.com/spinalcom/spinal-core-connectorjs.git",
+    "spinal-core-connectorjs_type": "git+https://github.com/spinalcom/spinal-core-connectorjs_type.git"
+  }
 }
