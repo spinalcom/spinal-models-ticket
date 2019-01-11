@@ -1,4 +1,3 @@
-"use strict";
 /*
  * Copyright 2019 SpinalCom - www.spinalcom.com
  *
@@ -22,16 +21,18 @@
  *  with this file. If not, see
  *  <http://resources.spinalcom.com/licenses.pdf>.
  */
-Object.defineProperty(exports, "__esModule", { value: true });
-const spinal_core_connectorjs_type_1 = require("spinal-core-connectorjs_type");
-const spinalCore = require("spinal-core-connectorjs");
-class SpinalTicket extends spinal_core_connectorjs_type_1.Model {
-    constructor(ticket) {
-        super();
-        ticket['creationDate'] = Date.now();
-        this.add_attr(ticket);
-    }
+
+import { Model } from 'spinal-core-connectorjs_type';
+
+const spinalCore = require('spinal-core-connectorjs');
+
+export interface SpinalProcess {
+  id? :string;
+  defaultStepId? :string;
+  name? :string;
+  color? :string;
+  type? :string;
+  [key: string]: any;
 }
-exports.default = SpinalTicket;
-spinalCore.register_models(SpinalTicket);
-//# sourceMappingURL=SpinalTicket.js.map
+
+

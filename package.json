@@ -11,15 +11,21 @@
     "url": "git+https://github.com/spinalcom/spinal-models-ticket.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "spinalcom",
   "license": "spinalcom",
   "bugs": {
     "url": "https://github.com/spinalcom/spinal-models-ticket/issues"
   },
   "homepage": "https://github.com/spinalcom/spinal-models-ticket#readme",
   "dependencies": {
-    "@types/node": "^10.12.12",
     "spinal-core-connectorjs": "git+https://github.com/spinalcom/spinal-core-connectorjs.git",
     "spinal-core-connectorjs_type": "git+https://github.com/spinalcom/spinal-core-connectorjs_type.git"
+  },
+  "devDependencies": {
+   "jsdoc-to-markdown": "^4.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.2",
+    "@types/node": "^10.12.12"
   }
 }
