@@ -1,1 +1,10 @@
-{"version":3,"file":"SpinalTicket.js","sourceRoot":"","sources":["../src/SpinalTicket.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;;;;;;;GAsBG;;AAEH,+EAAoD;AAEpD,MAAM,UAAU,GAAG,OAAO,CAAC,yBAAyB,CAAC,CAAC;AAoBtD,MAAqB,YAAa,SAAQ,oCAAK;IAE7C,YAAY,MAAuB;QACjC,KAAK,EAAE,CAAC;QACR,MAAM,CAAC,cAAc,CAAC,GAAG,IAAI,CAAC,GAAG,EAAE,CAAC;QACpC,IAAI,CAAC,QAAQ,CAAC,MAAM,CAAC,CAAC;IACxB,CAAC;CACF;AAPD,+BAOC;AAED,UAAU,CAAC,eAAe,CAAC,YAAY,CAAC,CAAC"}
+{
+  "version": 3,
+  "file": "SpinalTicket.js",
+  "sourceRoot": "",
+  "sources": [
+    "../src/SpinalTicket.ts"
+  ],
+  "names": [],
+  "mappings": ";AAAA;;;;;;;;;;;;;;;;;;;;;;;GAuBG;;AAEH,+EAAoD;AAEpD,MAAM,UAAU,GAAG,OAAO,CAAC,yBAAyB,CAAC,CAAC;AAmBtD,MAAqB,YAAa,SAAQ,oCAAK;IAE7C,YAAY,MAAuB;QACjC,KAAK,EAAE,CAAC;QACR,MAAM,CAAC,cAAc,CAAC,GAAG,IAAI,CAAC,GAAG,EAAE,CAAC;QACpC,IAAI,CAAC,QAAQ,CAAC,MAAM,CAAC,CAAC;IACxB,CAAC;CACF;AAPD,+BAOC;AAED,UAAU,CAAC,eAAe,CAAC,YAAY,CAAC,CAAC"
+}
