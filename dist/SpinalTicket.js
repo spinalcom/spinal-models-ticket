@@ -39,8 +39,7 @@
  *  Program, you agree to abide by all the terms and
  *  conditions stated or referenced herein.
  *
- *  If you do not ld
- *  agree to abide by these terms and
+ *  If you do not agree to abide by these terms and
  *  conditions, do not demonstrate your acceptance and do
  *  not install or use the Program.
  *  You should have received a copy of the license along
@@ -51,11 +50,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const spinal_core_connectorjs_type_1 = require("spinal-core-connectorjs_type");
 const spinalCore = require("spinal-core-connectorjs");
 class SpinalTicket extends spinal_core_connectorjs_type_1.Model {
-    constructor(ticket) {
-        super();
-        ticket['creationDate'] = Date.now();
-        this.add_attr(ticket);
-    }
+  constructor(ticket) {
+    super();
+    ticket['creationDate'] = Date.now();
+    this.add_attr(ticket);
+  }
 }
 exports.default = SpinalTicket;
 spinalCore.register_models(SpinalTicket);
