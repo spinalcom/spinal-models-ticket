@@ -22,12 +22,25 @@
  *  <http://resources.spinalcom.com/licenses.pdf>.
  */
 
+import { Model } from "spinal-core-connectorjs_type"
+
+
 const spinalCore = require('spinal-core-connectorjs');
 
-export interface SpinalLogTicket {
+export interface SpinalLogTicketInterface {
   id?: string;
   ticketId?: string;
   date?: number;
   steps: string[]; // 0 from 1 to
   [key: string]: any;
 }
+export default class SpinalLogTicket extends Model {
+
+  constructor(log: SpinalLogTicketInterface) {
+    super();
+    log['creationDate'] = Date.now();
+    this.add_attr(log);
+  }
+}
+
+spinalCore.register_models(SpinalLogTicket);
