@@ -14,6 +14,6 @@ export interface TicketInterface {
     urls?: string[];
     [key: string]: any;
 }
-export default class SpinalTicket extends Model {
+export declare class SpinalTicket extends Model {
     constructor(ticket: TicketInterface);
 }

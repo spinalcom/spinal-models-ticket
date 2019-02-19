@@ -32,6 +32,6 @@ class SpinalTicket extends spinal_core_connectorjs_type_1.Model {
         this.add_attr(ticket);
     }
 }
-exports.default = SpinalTicket;
+exports.SpinalTicket = SpinalTicket;
 spinalCore.register_models(SpinalTicket);
 //# sourceMappingURL=SpinalTicket.js.map

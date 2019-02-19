@@ -43,7 +43,7 @@ export interface TicketInterface {
   [key: string]: any;
 }
 
-export default class SpinalTicket extends Model {
+export  class SpinalTicket extends Model {
 
   constructor(ticket: TicketInterface) {
     super();

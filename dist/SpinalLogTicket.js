@@ -32,6 +32,6 @@ class SpinalLogTicket extends spinal_core_connectorjs_type_1.Model {
         this.add_attr(log);
     }
 }
-exports.default = SpinalLogTicket;
+exports.SpinalLogTicket = SpinalLogTicket;
 spinalCore.register_models(SpinalLogTicket);
 //# sourceMappingURL=SpinalLogTicket.js.map

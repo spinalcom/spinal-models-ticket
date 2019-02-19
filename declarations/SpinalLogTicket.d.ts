@@ -6,6 +6,6 @@ export interface SpinalLogTicketInterface {
     steps: string[];
     [key: string]: any;
 }
-export default class SpinalLogTicket extends Model {
+export declare class SpinalLogTicket extends Model {
     constructor(log: SpinalLogTicketInterface);
 }

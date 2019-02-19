@@ -34,7 +34,7 @@ export interface SpinalLogTicketInterface {
   steps: string[]; // 0 from 1 to
   [key: string]: any;
 }
-export default class SpinalLogTicket extends Model {
+export class SpinalLogTicket extends Model {
 
   constructor(log: SpinalLogTicketInterface) {
     super();
