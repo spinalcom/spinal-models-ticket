@@ -28,8 +28,10 @@ const spinalCore = require("spinal-core-connectorjs");
 class SpinalTicket extends spinal_core_connectorjs_type_1.Model {
     constructor(ticket) {
         super();
-        ticket['creationDate'] = Date.now();
-        this.add_attr(ticket);
+        if (!!ticket) {
+            ticket['creationDate'] = Date.now();
+            this.add_attr(ticket);
+        }
     }
 }
 exports.SpinalTicket = SpinalTicket;

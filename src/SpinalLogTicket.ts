@@ -38,8 +38,10 @@ export class SpinalLogTicket extends Model {
 
   constructor(log: SpinalLogTicketInterface) {
     super();
-    log['creationDate'] = Date.now();
-    this.add_attr(log);
+    if (!!log) {
+      log['creationDate'] = Date.now();
+      this.add_attr(log);
+    }
   }
 }
 

@@ -28,8 +28,8 @@ const spinalCore = require("spinal-core-connectorjs");
 
 export interface TicketInterface {
   id?: string;
-  stepId? :string;
-  processId? :string;
+  stepId?: string;
+  processId?: string;
   name: string;
   type?: string;
   note?: string;
@@ -43,12 +43,14 @@ export interface TicketInterface {
   [key: string]: any;
 }
 
-export  class SpinalTicket extends Model {
+export class SpinalTicket extends Model {
 
   constructor(ticket: TicketInterface) {
     super();
-    ticket['creationDate'] = Date.now();
-    this.add_attr(ticket);
+    if (!!ticket) {
+      ticket['creationDate'] = Date.now();
+      this.add_attr(ticket);
+    }
   }
 }
 
