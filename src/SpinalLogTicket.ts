@@ -30,7 +30,8 @@ const spinalCore = require('spinal-core-connectorjs');
 export interface SpinalLogTicketInterface {
   id?: string;
   ticketId?: string;
-  date?: number;
+  // date?: number;
+  user?: any;
   steps: string[]; // 0 from 1 to
   [key: string]: any;
 }
