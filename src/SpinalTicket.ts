@@ -30,16 +30,11 @@ export interface TicketInterface {
   id?: string;
   stepId?: string;
   processId?: string;
-  name: string;
+  name?: string;
   type?: string;
-  note?: string;
   equipment?: string;
   state?: string;
   creationDate?: number;
-  // id of the real problem
-  sourceId?: string;
-  images?: string[];
-  urls?: string[];
   [key: string]: any;
 }
 

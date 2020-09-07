@@ -1,5 +1,5 @@
-import { SpinalLogTicket } from './SpinalLogTicket';
+import { SpinalLogTicket, SpinalLogTicketInterface } from './SpinalLogTicket';
 import { SpinalProcess } from './SpinalProcess';
 import { SpinalStep } from './SpinalStep';
-import { SpinalTicket } from './SpinalTicket';
-export { SpinalLogTicket, SpinalProcess, SpinalStep, SpinalTicket };
+import { SpinalTicket, TicketInterface } from './SpinalTicket';
+export { SpinalLogTicket, SpinalLogTicketInterface, SpinalProcess, SpinalStep, SpinalTicket, TicketInterface };
